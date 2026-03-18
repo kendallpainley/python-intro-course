@@ -17,7 +17,7 @@ print("=" * 55)
 # Print the classic greeting: Hello, World!
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 1 ]")
-# TODO: print "Hello, World!"
+print("Hello, World!")
 
 
 # ──────────────────────────────────────────────────────────
@@ -28,7 +28,9 @@ print("\n[ Exercise 1 ]")
 #   I am learning Python!
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 2 ]")
-# TODO: three print() calls
+print("My name is KJ")
+print("I am 25 years old.")
+print("I am learning Python!")
 
 
 # ──────────────────────────────────────────────────────────
@@ -37,9 +39,13 @@ print("\n[ Exercise 2 ]")
 # Add a descriptive comment above EACH print() explaining what it does.
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 3 ]")
+# Prints Python is fun!
 print("Python is fun!")
+# Prints I am becoming a programmer!
 print("I am becoming a programmer!")
+# Prints nothing, serves as a blank space
 print()
+# Prints See you in the next module!
 print("See you in the next module!")
 
 
@@ -50,7 +56,7 @@ print("See you in the next module!")
 # Expected output:  Python --> is --> great
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 4 ]")
-# TODO: one print() with sep=
+print("Python", "is", "great", sep=" --> ")
 
 
 # ──────────────────────────────────────────────────────────
@@ -60,7 +66,8 @@ print("\n[ Exercise 4 ]")
 # Hint: use end= on the first print()
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 5 ]")
-# TODO: two print() calls, output on one line
+print("Hello", end=" ")
+print("World!")
 
 
 # ──────────────────────────────────────────────────────────
@@ -68,9 +75,9 @@ print("\n[ Exercise 5 ]")
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 6 ]")
 # Fix the three errors below (uncomment and correct each line):
-# Print("Hello from Python!")
-# print("I love coding!)
-#  print("Python is case-sensitive!")
+print("Hello from Python!")
+print("I love coding!")
+print("Python is case-sensitive!")
 
 
 # ──────────────────────────────────────────────────────────
@@ -81,7 +88,9 @@ print("\n[ Exercise 6 ]")
 #   +---------+
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 7 — Challenge ]")
-# TODO: draw the box with print()
+print("+---------+")
+print("|  Hello  |")
+print("+---------+")
 
 
 print("\n" + "=" * 55)

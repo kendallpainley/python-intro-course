@@ -7,8 +7,9 @@ A hands-on Python course with **20 modules** taking you from absolute zero to ad
 ## Course Structure
 
 Each module contains:
-- **`lesson_XX_topic.ipynb`** — Jupyter notebook with theory, explanations, and live code demos
-- **`exercises/ex_XX_topic.py`** — Hands-on exercises with **solutions hidden at the bottom**
+- **`lesson_XX_topic.ipynb`** — Jupyter notebook
+- **`ex_XX_topic.ipynb`** — Hands-on exercises
+- **`ex_XX_solutions.py`** - Solutions to exercises
 
 ---
 
@@ -74,12 +75,6 @@ venv\Scripts\Activate.ps1
 ```bash
 pip install -r requirements.txt
 ```
-
-**5. Open in IDE**
-- File → Open → select the `python-intro-course` folder
-- IDE will detect `venv` automatically
-- If not: Settings → Project → Python Interpreter → select `venv/bin/python`
-
 ---
 
 ## How to Use This Course
@@ -89,12 +84,11 @@ pip install -r requirements.txt
 2. Run cells with **Shift+Enter**
 3. **Experiment!** Change the code and re-run — this is how you learn
 
-### Exercises (`.py` files)
+### Exercises (`.ipynb` files)
 1. Open the exercise file for the module you're on
-2. Read each `# TODO:` comment and write your code below it
-3. Run the file: right-click → **Run**, or press the green ▶ button
-4. Check your output against the expected results
-5. **Only scroll to the SOLUTIONS section after you've genuinely tried**
+2. Read each exercise, comment and write your code below it
+3. Run the file: press the green ▶ button to the left of each block
+
 
 
 ---
@@ -105,7 +99,7 @@ If you prefer JupyterLab:
 ```bash
 jupyter lab
 ```
-Then navigate to any module folder and open the `.ipynb` file.
+Then navigate to any module folder and open the `.ipynb` files.
 
 ---
 
@@ -119,20 +113,11 @@ python-intro-course/
 ├── module_01_getting_started/
 │   ├── lesson_01_getting_started.ipynb
 │   └── exercises/
-│       └── ex_01_getting_started.py
-├── module_02_variables_and_data_types/
-│   ├── lesson_02_variables_and_data_types.ipynb
-│   └── exercises/
-│       └── ex_02_variables_and_data_types.py
+│       ├── ex_01_solutions.py
+│       └── ex_01_getting_started.ipynb
+
+
 ... (continued)
 ```
 
 ---
-
-## Contributing / Issues
-
-Found a bug in an exercise or notebook? Open an issue or submit a PR!
-
----
-
-*Happy coding!*
