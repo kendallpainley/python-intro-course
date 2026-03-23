@@ -15,7 +15,9 @@ print("=" * 55)
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 1 ]")
 word = "programming"
-# TODO: print first, last, middle characters and length
+
+mid = len(word) // 2
+print(word[0], word[-1], word[mid], len(word))
 
 
 # ──────────────────────────────────────────────────────────
@@ -26,7 +28,9 @@ word = "programming"
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 2 ]")
 s = "Hello, World!"
-# TODO: five slicing operations
+
+print(len(s))
+print(s[:5], s[7:12], s[6:], s[0::2], s[::-1], sep=" --- ")
 
 
 # ──────────────────────────────────────────────────────────
@@ -39,7 +43,8 @@ s = "Hello, World!"
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 3 ]")
 messy = "  learning pythn is fun!  "
-# TODO: clean the string step by step
+
+print(messy.strip().title().replace("Pythn", "Python"))
 
 
 # ──────────────────────────────────────────────────────────
@@ -55,7 +60,8 @@ print("\n[ Exercise 4 ]")
 item = "Widget"
 price = 19.99
 quantity = 3
-# TODO: print formatted receipt using f-strings
+
+print(f'Item: {item} \nPrice: {price} \nQuantity: {quantity} \nTotal: {price * quantity}')
 
 
 # ──────────────────────────────────────────────────────────
@@ -65,7 +71,10 @@ quantity = 3
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 5 ]")
 sentence = "The quick brown fox jumps over the lazy dog"
-# TODO: count words and print each numbered
+
+count = len(sentence.split())
+
+
 
 
 # ──────────────────────────────────────────────────────────
@@ -75,7 +84,11 @@ sentence = "The quick brown fox jumps over the lazy dog"
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 6 ]")
 test_word = "racecar"
-# TODO: check if it reads the same forwards and backwards
+
+if test_word[::-1] == test_word:
+    print(f"'racecar' is a palindrome: True")
+else:
+    print(f"'racecar' is a palindrome: False")
 
 
 # ──────────────────────────────────────────────────────────
@@ -86,7 +99,8 @@ test_word = "racecar"
 # ──────────────────────────────────────────────────────────
 print("\n[ Exercise 7 — Challenge ]")
 plaintext = "hello"
-# TODO: build the shifted string character by character
+
+
 
 
 print("\n" + "=" * 55)
